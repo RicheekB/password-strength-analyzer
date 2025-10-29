@@ -1,154 +1,35 @@
-Password Strength Analyzer
+# 🔐 Password Strength Analyzer
 
+A simple yet effective **Python command-line tool** that evaluates password strength and provides feedback for creating more secure passwords.  
+This project applies key cybersecurity concepts learned through the *Google Cybersecurity Professional Certificate*, including password entropy, hashing, and risk mitigation.
 
+---
 
-A Python command-line tool that evaluates the strength of user passwords and provides feedback for improvement.
+## 🧠 Overview
 
-This project demonstrates core cybersecurity concepts such as password complexity analysis, hashing, and secure coding practices.
+The **Password Strength Analyzer** checks for:
+- Password length and character diversity  
+- Use of uppercase, lowercase, digits, and special symbols  
+- Detection of weak or common patterns (e.g., "password", "123", "qwerty")  
+- Secure password hashing using the **SHA-256** algorithm  
 
+---
 
+## ⚙️ Features
 
-Overview
+- 🧩 Easy-to-use command-line interface  
+- 💡 Strength scoring system (Weak / Medium / Strong)  
+- 🔒 SHA-256 hashing for secure password representation  
+- 🗒️ Personalized feedback for password improvement  
 
+---
 
+## 🚀 Getting Started
 
-The Password Strength Analyzer checks for:
+### Requirements
+- Python 3.8 or higher  
+- No external dependencies  
 
-
-
-Password length and character diversity
-
-
-
-Use of uppercase, lowercase, digits, and special symbols
-
-
-
-Common weak patterns (such as "password", "123", "qwerty")
-
-
-
-Secure password hashing using the SHA-256 algorithm
-
-
-
-Features
-
-
-
-Simple command-line interface
-
-
-
-Strength scoring system (Weak, Medium, Strong)
-
-
-
-SHA-256 password hashing
-
-
-
-Clear feedback to guide password improvement
-
-
-
-Installation and Usage
-
-
-
-Requirements:
-
-
-
-Python 3.8 or higher
-
-
-
-To run the script:
-
-
-
-python3 password\_analyzer.py
-
-
-
-
-
-Example Output:
-
-
-
-Enter your password: \*\*\*\*\*\*\*\*\*
-
-
-
-Password Strength: Medium (65/100)
-
-Feedback:
-
-\- Add more special characters.
-
-\- Increase length beyond 12 characters.
-
-
-
-SHA-256 Hash: 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
-
-
-
-Project Structure
-
-password-strength-analyzer/
-
-│
-
-├── password\_analyzer.py      # Main script
-
-├── README.md                 # Documentation
-
-└── sample\_output.txt         # Example output (optional)
-
-
-
-Key Learnings
-
-
-
-Understanding password strength metrics and entropy
-
-
-
-Implementing SHA-256 hashing in Python
-
-
-
-Building structured, modular command-line tools
-
-
-
-Applying secure programming principles
-
-
-
-Future Enhancements
-
-
-
-Add password entropy calculation
-
-
-
-Develop a simple web interface using Flask
-
-
-
-Integrate a leaked-password detection API
-
-
-
-Author
-
-
-
-Richeek Basu
-
+### Run the Script
+```bash
+python3 password_analyzer.py
