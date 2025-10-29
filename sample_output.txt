@@ -1,0 +1,15 @@
+
+Warning: Password input may be echoed.
+Enter your password: BuyMeCoffee@$2.00
+
+
+ Password Strength Analyzer 
+
+Password Strength: Strong (90/100)
+
+Feedback:
+
+SHA-256 Hash: 0e808d55ec64351a98cf0345b5ac3f5245da7201b9e1735ca142803fe8244361
+
+
+** Process exited - Return Code: 0 **
