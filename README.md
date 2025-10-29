@@ -45,8 +45,10 @@ Feedback:
 - Add more special characters.
 - Increase length beyond 12 characters.
 
-**SHA-256 Hash: 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
-**
+
+SHA-256 Hash: 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+
+
 Project Structure
 password-strength-analyzer/
 │
@@ -75,3 +77,4 @@ Integrate a leaked-password detection API
 
 Author
 Richeek Basu
+
