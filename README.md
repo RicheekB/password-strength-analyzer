@@ -11,7 +11,9 @@ The **Password Strength Analyzer** checks for:
 - Password length and character diversity  
 - Use of uppercase, lowercase, digits, and special symbols  
 - Detection of weak or common patterns (e.g., "password", "123", "qwerty")  
-- Secure password hashing using the **SHA-256** algorithm  
+- Secure password hashing using the **SHA-256** algorithm
+- Skills: Python, Regex, SHA-256 Hashing, Secure Coding, Risk Assessment, Git, Cybersecurity Fundamentals
+
 
 ---
 
@@ -63,3 +65,4 @@ Reinforcing cybersecurity best practices through applied coding
 ## 👨‍💻 Author
 
 Richeek Basu
+
